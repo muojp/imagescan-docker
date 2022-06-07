@@ -28,7 +28,7 @@ $ cp imagescan ~/bin/
 Calling Docker container directly:
 
 ```
-$ docker run -e SCANNER_IPADDR='192.168.0.123' imagescan:latest > result.jpg
+$ docker run --rm -e SCANNER_IPADDR='192.168.0.123' imagescan:latest > result.jpg
 ```
 
 Wrapped imagescan command:
